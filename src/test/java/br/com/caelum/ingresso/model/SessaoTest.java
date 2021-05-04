@@ -7,7 +7,7 @@ import java.time.LocalTime;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SessaoTeste {
+public class SessaoTest {
 	@Test
 	public void oPrecoDaSessaoDeveSerIgualASomaDoPrecoDaSalaMaisOPrecoDoFilme() {
 		Sala sala = new Sala("Eldorado	-	IMax", new BigDecimal("22.5"));
